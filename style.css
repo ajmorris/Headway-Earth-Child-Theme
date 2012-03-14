@@ -1,0 +1,225 @@
+/*  
+Theme Name: Headway Earth Theme
+Theme URI: http://headwaythemes.com
+Description: A Simple Headway Child Theme to get you started on the ocean.
+Version: 0.1
+Author: Headway Themes
+Author URI: http://headwaythemes.com
+Template: headway
+*/
+
+/* Colors */
+/*
+Dark Green - #182F21
+Green - #327B51
+Blue - #0F9FAB
+Red - #5C2100
+Brown - #3B2006
+*/
+
+html {
+	font-size: 16px;
+}
+body {
+	font-size: 15px;
+	line-height: 24px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+input, select, textarea {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+address, img, q, ul, ol, dl {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+a img {
+	margin: 0;
+}
+
+/* Main Background */
+body {
+	background: #182F21;
+	color: #efefef;
+}
+
+/* Universal Link Styles */
+a {
+	color: #5C2100;
+	text-decoration: none;
+}
+a:hover {
+	color: ;
+	text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	color: ;
+}
+h1 {
+	font-size: 24px;
+	line-height: 24px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 23px;
+	line-height: 24px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 22px;
+	line-height: 16px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-weight: bold;
+}
+h4 {
+	font-size: 21px;
+	line-height: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+h5, h6 {
+	font-size: 20px;
+	font-weight: bold;
+}
+h6 {
+	font-size: 20px;
+	line-height: 23px;
+	color: ;
+	font-style: italic;
+	margin-bottom: 7px;
+	font-weight: normal;
+}
+
+span.widget-title {
+	color: ;
+}
+
+/*	Wrapper Defaults */
+
+.wrapper {
+	background: ;
+}
+
+/*	Block Defaults */
+
+.block {
+	background: #327B51;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* Header Block */
+
+.block-type-header {
+	background: #3B2006;
+}
+
+span.banner a {
+	font-size: 32px;
+	font-weight: normal;
+	text-shadow: 0 2px 1px #2a1a1a;
+}
+
+span.tagline {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+h1.tagline {
+	font-weight: normal;
+}
+
+/* Navigation Block */
+
+.block-type-navigation {
+	background: #5C2100;
+}
+
+.block-type-navigation ul.menu li {
+	height: 75% !important;
+	margin: 5px !important;
+}
+.block-type-navigation li a {
+	color: #0F9FAB;	
+}
+
+.block-type-navigation li a:hover {
+	background: #0F9FAB;
+	color: #5C2100;
+	border-radius: 5px;
+}
+
+.block-type-navigation li a:active {
+	color: #5C2100;
+}
+
+.block-type-navigation li ul {
+	background: #5C2100;
+}
+
+/* Breadcrumbs Block */
+
+.block-type-breadcrumbs {
+	
+}
+
+/* Content Block */
+
+.block-type-content {
+	padding: 10px;
+	background: ;
+}
+
+.block-type-content .entry-meta {
+	color: ;
+}
+
+/* Widget Block */
+
+.block-type-widget-area {
+	padding: 10px;
+	background: #0F9FAB;
+	color: #3B2006;
+}
+
+span.widget-title {
+	font-size: 21px;
+	line-height: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+/* Footer Block */
+
+.block-type-footer {
+	background: #3B2006;
+}
+
+/* Media Block */
+
+.block-type-media {
+	
+}
+
+/* Custom Code Block */
+
+.block-type-custom-code {
+	
+}
+
+/* Gravity Form Block */
+
+.block-type-gravity-form {
+	
+}
+
